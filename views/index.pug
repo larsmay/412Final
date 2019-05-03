@@ -1,5 +1,36 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .main.container
+    .row
+      .col-md-6.col-md-offset-3
+        h1.display-4.m-b-2 Add an Item to your Shopping List
+
+        // register form
+        form(method='post' action='')
+          div.form-group
+            label(for='User Name') User Name:
+            input#username.form-control(type='text', placeholder='Enter your user name' name='userName')
+            br
+            br
+          div.form-group
+            label(for='name') Name:
+            input#name.form-control(type='text', placeholder='Item Name' name='itemName')
+            br
+            br
+          div.form-group
+            label(for='quantity') Quantity:
+            input#quantity.form-control(type='text', placeholder='how many items?' name='quantity')
+            br
+            br
+          div.form-group
+            label(for='type') Item Type:
+            input#itemType.form-control(type='text', placeholder='What kind of item is this?' name='itemType')
+            br
+            br
+          div.form-group
+            label(for='store') Store:
+            input#store.form-control(type='text', placeholder='Store Name' name='store')
+            br
+            br
+          button.btn.btn-primary(type='submit') Add to List

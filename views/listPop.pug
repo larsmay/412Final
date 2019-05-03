@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1=store
+  ul
+  each i in items
+    li item: #{i.item} quantity: #{i.quantity}

@@ -1,0 +1,21 @@
+extends layout
+
+block content
+ .main.container
+    .row
+      .col-md-6.col-md-offset-3
+        h1.display-4.m-b-2 Shopping List
+
+        // register form
+        form(method='post' action='')
+          div.form-group
+            label(for='User Name') User Name:
+            input#username.form-control(type='text', placeholder='Enter your user name' name='userName')
+            br
+            br
+          div.form-group
+            label(for='store') Store:
+            input#store.form-control(type='text', placeholder='Store Name' name='store')
+            br
+            br
+          button.btn.btn-primary(type='submit') Display List

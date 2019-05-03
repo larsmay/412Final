@@ -1,0 +1,6 @@
+{
+    "GOOGLE_CLIENT_ID" : "963686993500-9gjodp8cvqjld8agjm404u8489odn1eo.apps.googleusercontent.com",
+    "GOOGLE_CLIENT_SECRET" : "jfzKDb7-ndoofvf9cPGYVAnW",
+    "GOOGLE_CALLBACK_URL_DEV" : "http://final-project-restaurants.appspot.com/auth/google/callback",
+    "GOOGLE_CALLBACK_URL_APP_ENGINE" :  "https://final-project-restaurants.appspot.com/auth/google/callback"
+}
